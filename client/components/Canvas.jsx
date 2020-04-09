@@ -7,7 +7,7 @@ const Canvas = (props) => {
   return (
     <>
         <div id='canvas'>
-            {Array.from({length: 1600}, (v, i) => <Pixel currentColor={props.currentColor} />)}
+            {Array.from({length: 1600}, (v, i) => <Pixel id={i} key={i} currentColor={props.currentColor} />)}
         </div>
     </>
   )

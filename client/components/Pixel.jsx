@@ -16,7 +16,7 @@ class Pixel extends React.Component {
 
     render() {
         return (
-            <div className='pixel' onDragEnter={this.onDrag} onClick={this.clickHandler} style={this.state}></div>
+            <div id={this.props.id} className='pixel' onDragEnter={this.onDrag} onClick={this.clickHandler} style={this.state}></div>
         )
     }
 }
