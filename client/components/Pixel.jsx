@@ -2,13 +2,7 @@ import React from 'react'
 
 class Pixel extends React.Component {
 
-    clickHandler = evt => {
-        this.setState({
-            backgroundColor: this.props.currentColor
-        })
-    }
-
-    onDrag = evt => {
+    setColor = evt => {
         this.setState({
             backgroundColor: this.props.currentColor
         })
@@ -16,7 +10,7 @@ class Pixel extends React.Component {
 
     render() {
         return (
-            <div id={this.props.id} className='pixel' onDragEnter={this.onDrag} onClick={this.clickHandler} style={this.state}></div>
+            <div id={this.props.id} className='pixel' onDragEnter={this.setColor} onClick={this.setColor} style={this.state}></div>
         )
     }
 }
