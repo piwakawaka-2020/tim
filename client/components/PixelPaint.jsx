@@ -17,11 +17,11 @@ class PixelPaint extends React.Component {
 
     render() {
         return (
-            <>
+            <div id='pixelPaint'>
                 <h1>Pixel Paint</h1>
                 <Canvas currentColor={this.state.bgColor} />
                 <ColorSelector changeColor={this.changeColor} />
-            </>
+            </div>
         )
     }
 }
