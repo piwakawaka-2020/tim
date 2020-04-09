@@ -31,7 +31,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     margin: 20px auto;
-    width: 350px;
+    width: 380px;
 }
 
 .option {
@@ -40,6 +40,11 @@ body {
     display: inline-block;
     margin: 10px;
     border-radius: 25%;
+    border: 2px solid grey
+}
+
+.option:hover {
+    border: black 2px solid;
 }
 
 #pixelPaint {
