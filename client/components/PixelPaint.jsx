@@ -10,7 +10,6 @@ class PixelPaint extends React.Component {
     }
 
     changeColor = (evt) => {
-        console.log('changing color to ', evt.target.style.backgroundColor)
         this.setState({
             bgColor: evt.target.style.backgroundColor
         })
@@ -20,7 +19,7 @@ class PixelPaint extends React.Component {
         return (
             <>
                 <h1>Pixel Paint</h1>
-                <Canvas currentcolor={this.state.bgColor} />
+                <Canvas currentColor={this.state.bgColor} />
                 <ColorSelector changeColor={this.changeColor} />
             </>
         )
