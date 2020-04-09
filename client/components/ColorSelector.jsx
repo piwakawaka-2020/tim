@@ -12,6 +12,11 @@ const ColorSelector = (props) => {
     <ColorOption changeColor={props.changeColor} bgColor='green' />
     <ColorOption changeColor={props.changeColor} bgColor='yellow' />
     <ColorOption changeColor={props.changeColor} bgColor='purple' />
+    <ColorOption changeColor={props.changeColor} bgColor='pink' />
+    <ColorOption changeColor={props.changeColor} bgColor='orange' />
+    <ColorOption changeColor={props.changeColor} bgColor='brown' />
+    <ColorOption changeColor={props.changeColor} bgColor='black' />
+    <ColorOption changeColor={props.changeColor} bgColor='white' />
     </div>
     </>
   )
