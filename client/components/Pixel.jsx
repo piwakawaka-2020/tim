@@ -4,13 +4,13 @@ class Pixel extends React.Component {
 
     clickHandler = evt => {
         this.setState({
-            backgroundColor: `red`
+            backgroundColor: this.props.currentColor
         })
     }
 
     onDrag = evt => {
         this.setState({
-            backgroundColor: 'red'
+            backgroundColor: this.props.currentColor
         })
     }
 

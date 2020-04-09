@@ -9,7 +9,7 @@ class ColorOption extends React.Component {
 
   render() {
     return (
-        <div className='option' style={this.state}></div>
+        <div onClick={this.props.changeColor} className='option' style={this.state}></div>
     )
   }
 }

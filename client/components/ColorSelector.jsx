@@ -2,11 +2,13 @@ import React from 'react'
 
 import ColorOption from './ColorOption'
 
-const ColorSelector = () => {
+const ColorSelector = (props) => {
   return (
     <>
     <h1>Color Selector</h1>
-    <ColorOption bgColor='red' />
+    <ColorOption changeColor={props.changeColor} bgColor='red' />
+    <ColorOption changeColor={props.changeColor} bgColor='blue' />
+    <ColorOption changeColor={props.changeColor} bgColor='green' />
     </>
   )
 }
