@@ -2,7 +2,7 @@ import React from 'react'
 
 class RandomPicture extends React.Component {
   state = {
-      backgroundImage: 'url(images/randomPic1.jpg)'
+      backgroundImage: `url(images/randomPic${Math.floor(Math.random() * 8)}.jpg)`
   }
   render() {
     return (
