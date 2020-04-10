@@ -14,7 +14,7 @@ class RandomPicture extends React.Component {
 
   render() {
     return (
-        <div onClick={this.changePicture} className='randomPic' style={this.state}></div>
+        <div onClick={this.changePicture} className='randomPic' style={this.state}>Click to change picture</div>
     )
   }
 }
