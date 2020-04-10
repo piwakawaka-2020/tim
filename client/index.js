@@ -9,7 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
     <App />,
     document.getElementById('app')
   )
-  })
+
+})
   
   
 
