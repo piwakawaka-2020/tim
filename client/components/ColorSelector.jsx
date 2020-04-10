@@ -4,7 +4,7 @@ import ColorOption from './ColorOption'
 
 const ColorSelector = (props) => {
   return (
-    <>
+      <>
     <h1>Color Selector</h1>
     <div id='optionList'>
     <ColorOption changeColor={props.changeColor} bgColor='red' />

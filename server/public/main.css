@@ -5,12 +5,13 @@ body {
 }
 
 #canvas {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     outline: 2px black solid;
     width: 400px;
     height: 400px;
-    margin: 0 auto;
+    margin-right: 180px;
+    float: right;
 }
 
 .pixel {
@@ -26,12 +27,11 @@ body {
 #optionList {
     border: 2px black solid;
     border-radius: 30px;
-    display: inline-block;
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 20px auto;
-    width: 380px;
+    margin: 10px auto;
+    width: 800px;
 }
 
 .option {
@@ -48,9 +48,19 @@ body {
 }
 
 #pixelPaint {
-    width: 600px;
+    width: 1200px;
     border: 3px black solid;
     border-radius: 50px;
     text-align: center;
+}
+
+.randomPic {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    margin-left: 180px;;
+    background-size: contain;
+    background-repeat: no-repeat;
+    outline: 2px black solid;
 }
 

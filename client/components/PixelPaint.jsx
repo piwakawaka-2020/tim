@@ -2,6 +2,7 @@ import React from 'react'
 
 import ColorSelector from './ColorSelector'
 import PixelBoard from './PixelBoard'
+import RandomPicture from './RandomPicture'
 
 class PixelPaint extends React.Component {
 
@@ -19,6 +20,7 @@ class PixelPaint extends React.Component {
         return (
             <div id='pixelPaint'>
                 <h1>Pixel Paint</h1>
+                <RandomPicture />
                 <PixelBoard currentColor={this.state.bgColor} />
                 <ColorSelector changeColor={this.changeColor} />
             </div>
