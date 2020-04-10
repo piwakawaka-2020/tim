@@ -15,6 +15,7 @@ class App extends Component {
 
     render() {
         return (
+          <>
             <h1>Tim, Tom and Thom's crazy cool stuff for your eyeballs</h1>
             <div className="container">
                 <input
@@ -35,8 +36,10 @@ class App extends Component {
                 </svg>
             </div>
             <PixelPaint />
+            </>
         );
     }
+  }
 
 
 export default App
