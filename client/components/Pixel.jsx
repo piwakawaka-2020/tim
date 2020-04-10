@@ -2,9 +2,17 @@ import React from 'react'
 
 class Pixel extends React.Component {
 
+    
+
     setColor = evt => {
         this.setState({
             backgroundColor: this.props.currentColor
+        })
+    }
+
+    resetBoard = (evt) => {
+        this.setState({
+            bgColor: 'white'
         })
     }
 
