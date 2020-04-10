@@ -11,6 +11,7 @@ class PixelPaint extends React.Component {
     }
 
     changeColor = (evt) => {
+        console.log('changing')
         this.setState({
             bgColor: evt.target.style.backgroundColor
         })
@@ -23,6 +24,8 @@ class PixelPaint extends React.Component {
                 <RandomPicture />
                 <PixelBoard currentColor={this.state.bgColor} />
                 <ColorSelector changeColor={this.changeColor} />
+                <br></br>
+                <a href='/'>reset</a>
             </div>
         )
     }
