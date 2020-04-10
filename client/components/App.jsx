@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 
+import PixelPaint from './PixelPaint'
 
 import Alphabet from "./Alphabet"
 import Text from "./Text"
@@ -14,6 +15,7 @@ class App extends Component {
 
     render() {
         return (
+            <h1>Tim, Tom and Thom's crazy cool stuff for your eyeballs</h1>
             <div className="container">
                 <input
                     type="text"
@@ -32,8 +34,9 @@ class App extends Component {
                     {/* <Alphabet x={32} y={300} /> */}
                 </svg>
             </div>
+            <PixelPaint />
         );
     }
-}
+
 
 export default App
