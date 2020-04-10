@@ -1,3 +1,7 @@
+body {
+    text-align: center;
+}
+
 #canv {
     border:1px solid black;
     margin:0 auto;

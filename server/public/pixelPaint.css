@@ -52,6 +52,7 @@ body {
     border: 3px black solid;
     border-radius: 50px;
     text-align: center;
+    margin: 0 auto;
 }
 
 .randomPic {
