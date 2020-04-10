@@ -3,7 +3,7 @@ import React from 'react'
 import Pixel from './Pixel'
 
 const PixelBoard = (props) => {
-    console.log(props)
+  
   return (
     <>
         <div id='canvas'>
