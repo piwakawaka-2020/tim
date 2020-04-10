@@ -22,7 +22,7 @@ class App extends Component {
                     type="text"
                     value={this.state.text}
                     onChange={this.changeText.bind(this)}
-                    placeholder="Type here"
+                    placeholder="If you type here you will break the app"
                     style={{
                         padding: ".6em",
                         fontSize: "1.2em",
