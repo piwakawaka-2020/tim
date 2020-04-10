@@ -1,6 +1,10 @@
+
+import Canvas from './canvas'
+import Button from './buttons'
 import React, { Component } from "react"
 
 import PixelPaint from './PixelPaint'
+
 
 import Alphabet from "./Alphabet"
 import Text from "./Text"
@@ -36,6 +40,9 @@ class App extends Component {
                 </svg>
             </div>
             <PixelPaint />
+            <h1 id='wow'> fractal thing</h1>
+            <Canvas/>
+            <Button/>
             </>
         );
     }
