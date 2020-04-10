@@ -1,8 +1,15 @@
 import React from 'react'
+import Canvas from './canvas'
+import Button from './buttons'
 
 const App = () => {
   return (
-    <h1>React development has begun!</h1>
+    <div>
+          <h1 id='wow'> fractal thing</h1>
+          <Canvas/>
+          <Button/>
+    </div>
+
   )
 }
 
