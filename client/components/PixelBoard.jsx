@@ -2,7 +2,7 @@ import React from 'react'
 
 import Pixel from './Pixel'
 
-const Canvas = (props) => {
+const PixelBoard = (props) => {
     console.log(props)
   return (
     <>
@@ -13,4 +13,4 @@ const Canvas = (props) => {
   )
 }
 
-export default Canvas
+export default PixelBoard

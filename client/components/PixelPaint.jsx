@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Canvas from './Canvas'
 import ColorSelector from './ColorSelector'
+import PixelBoard from './PixelBoard'
 
 class PixelPaint extends React.Component {
 
@@ -19,7 +19,7 @@ class PixelPaint extends React.Component {
         return (
             <div id='pixelPaint'>
                 <h1>Pixel Paint</h1>
-                <Canvas currentColor={this.state.bgColor} />
+                <PixelBoard currentColor={this.state.bgColor} />
                 <ColorSelector changeColor={this.changeColor} />
             </div>
         )
